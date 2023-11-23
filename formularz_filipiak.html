@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<body bgcolor="#00FFFF">
+<html>
+<head>
+<meta charset="utf-8">
+<title>Zadanie formularz</title>
+</head>
+
+<body>
+<form action="mailto:victorfilipiak@gmail.com" method="post" enctype="text/plain"><div>
+<p align="center"><font color="black" size="6" face="Arial"> <u>Podanie o przyjęcie do pracy</u>  </font> </p> 
+<TABLE>
+<TR height="100">
+<TD width="500">
+<b>Imię i nazwisko</b> <p align="left"<br><input name="imie i nazwisko" size="22"></br></p>
+
+<b>Adres email</b><p align="left"><input name="adres email" size="22"></p>
+
+<b>Adres zamieszkania</b><p align="left"><input name="adres zamieszkania" size="22"></br></p>
+<b>Pesel</b><p align="left"><input name="pesel" size="22"><nobr> </br></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+<p align="left"><b>Wyuczony zawód: </b>  <input name="wyuczony zawod" size="22"></p> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+
+<p><b>1.Wykształcenie:</b></p>
+<input type="radio" name="Wykształcenie" value="Podstawowe">Podstawowe
+<input type="radio" name="Wykształcenie" value="Średnie">Średnie
+<input type="radio" name="Wykształcenie" value="Wyższe">Wyższe
+<!--2 pytanie-->
+<p><b>2.Doświadzczenie w zawodzie</b></p>
+<input type="radio" name="Doświadzczenie" value="Brak">Brak
+<input type="radio" name="Doświadzczenie" value="1-6 lata">1-6 lata
+ <input type="radio" name="Doświadzczenie" value="6+ lat">6+ lat
+ <!--3 pytanie-->
+<p><b>3.Znajomość językow:</b></p>
+<input type="checkbox" name="Znajomość" value="Angielski">Angielski
+<input type="checkbox" name="Znajomość" value="Angielski">Niemiecki
+<input type="checkbox" name="Znajomość" value="Angielski">Rosyjski
+<input type="checkbox" name="Znajomość" value="Angielski">Włoski
+<input type="checkbox" name="Znajomość" value="Angielski">Inne
+<p><b>a)Proszę podać stopień znajomości zaznaczonych języków:</b></p>
+<textarea name="Komentarz" cols="50" rows="10"></textarea>
+<!--4 pytanie-->
+<p><b>4.Sposób dojazdu do firmy:</b></p>
+	<select name="Dojazd do firmy">
+	<option selected>Samochód</option>
+	<option>Komunikacja miejska</option>
+	<option>Inne</option>
+	</select>
+<!--5 pytanie-->
+<p><b>5.Ubiegam się o przyjęcie na stanowiko:</b></p>
+<input type="radio" name="stanowiko" value="Informatyk">Informatyk
+<input type="radio" name="stanowiko" value="Programista">Programista
+<input type="radio" name="stanowiko" value="Kierownik">Kierownik
+<input type="radio" name="stanowiko" value="Elektryk">Elektryk
+<!--6 pytanie-->
+<p><b>6.Aktualne badania lekarskie.</b></p>
+<input type="radio" name="badania lekarskie" value="Tak">Tak
+<input type="radio" name="badania lekarskie" value="Nie">Nie
+<!--7 pytanie-->
+<p><b>7.Dlaczego Pan/Pani uważa że, powinniśmy Pana/Panią ptzyjąć do naszej firmy?</b></p>
+<textarea name="Komentarz" cols="50" rows="10"></textarea>
+<!--8 pytanie-->
+<p><b>8.Dlaczego Pan/Pani wybrał/a naszą firmę?</b></p>
+<textarea name="Komentarz" cols="50" rows="10"></textarea>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+<!-- Przycisk WYCZYŚĆ DANE -->
+<br><input type="reset" value="Wyczyść">
+<!-- Przycisk WYŚLIJ -->
+<br><input type="submit"  value="Wyślij">
+</div></form>
+</body>
+</html>
+
